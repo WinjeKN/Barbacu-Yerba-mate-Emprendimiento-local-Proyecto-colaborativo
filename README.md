@@ -12,5 +12,9 @@ Emprendimiento local
 Sitio web informativo sobre un emprendimiento local que incluye
 información sobre su historia, catálogo de productos y contacto.
 ## Componentes de Bootstrap utilizados
-- Navbar responsivo
-- Sistema de grillas (Grid)
+- Navbar 
+## Distribución de tareas
+-**Encina Gaston:** Estructura basica html, se encarga de la pagina principal.
+- **Acosta Pia:** Pagina hostoria del emprendimiento. 
+- **Alonzo Emiliano:** Página servicios.
+- **Escalante Hugo:** Página contacto.
