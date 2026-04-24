@@ -28,3 +28,13 @@
 .text-center {
   font-family: monospace;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  margin-top: 0 !important;
+  border-radius: o;
+  margin: 0 !important;
+}

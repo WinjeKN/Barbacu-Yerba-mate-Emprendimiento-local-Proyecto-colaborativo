@@ -14,11 +14,58 @@
     <link rel="stylesheet" href="assets/css/contacto.css" />
   </head>
   <body>
-    <header class="dev-contacto bg-success container-fluid py-5 text-white">
+    <header
+      class="dev-contacto bg-opacity-75 bg-black container-fluid text-white"
+    >
+      <!-- Barra de navegacion -->
+      <nav class="navbar navbar-expand-lg bg-opacity-75 bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Barbacuá</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  aria-disabled="true"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <h1 class="h1-contacto, text-center">Contactános</h1>
       <h2 class="h2-contacto, text-center">Las maneras de contactarnos son:</h2>
     </header>
-    <main class="main-contacto, container-fluid py-5 bg-info">
+    <main class="main-contacto, container-fluid py-5 bg-success">
       <section id="section-contacto">
         <h3 class="h3-contacto, text-center">Formulario de contacto</h3>
         <form action="">
