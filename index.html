@@ -1,11 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <!-- CDN para que funcione boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+<!-- Archivo para modificacion de estilos de css -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <!-- Body -->
+  <body class="vw-100 vh-100 m-0 ">
+
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-opacity-75 bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Barbacuá</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-disabled="true" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel Banners -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide w-100 h-100 min-vh-100 min-vw-100 display-1" >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/Assets/Images/Barbacuá.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/Assets/Images/banner 2.jpg" class="d-block w-100" alt="..." />
+            
+          </div>
+          <div class="carousel-item">
+            <img src="/Assets/Images/Logo banner.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!-- Seccion div con informacion extra -->
+      <div class="container w-100 h-100 d-flex justify-content-center flex-column" >
+        <h1 class="mt-5">Barbacuá</h1>
+        <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem est quas necessitatibus quo, accusamus ex beatae sunt in dolore tenetur similique voluptate assumenda facere incidunt fuga sed eveniet ab nam.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum magni placeat amet. Dolor, sunt deleniti soluta ducimus distinctio voluptatibus voluptate eum numquam placeat perferendis incidunt eveniet quo, quasi velit delectus.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg mt-5 bg-black bg-opacity-75 ">Contacto</button>
+
+
+      </div>
+
+      
     
-</body>
+
+
+
+      <!-- Footer -->
+      <footer class="bg-opacity-75 bg-black w-100 m p-3 justify-content-center d-flex text-white">&copy; Grupo N°8 "Emprendimiento local Yerba Barbacuá" </footer>  
+
+
+      <!-- Script para que funcionen los scripts de boostrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
